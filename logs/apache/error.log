@@ -1,0 +1,17 @@
+[Tue Sep 14 23:31:31.212622 2021] [mpm_winnt:notice] [pid 59232:tid 800] AH00455: Apache/2.4.43 (Win32) configured -- resuming normal operations
+[Tue Sep 14 23:31:31.212622 2021] [mpm_winnt:notice] [pid 59232:tid 800] AH00456: Server built: Apr 21 2020 13:46:54
+[Tue Sep 14 23:31:31.212622 2021] [core:notice] [pid 59232:tid 800] AH00094: Command line: 'C:\\Users\\nishi\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+6\\bin\\win32\\bin\\httpd.exe -d C:/Users/nishi/AppData/Roaming/Local/lightning-services/apache-2.4.43+6/bin/win32 -D FOREGROUND -f C:\\Users\\nishi\\AppData\\Roaming\\Local\\run\\L-pFkpTal\\conf\\apache\\apache2.conf'
+[Tue Sep 14 23:31:31.214617 2021] [mpm_winnt:notice] [pid 59232:tid 800] AH00418: Parent: Created child process 7036
+[Tue Sep 14 23:31:31.646869 2021] [mpm_winnt:notice] [pid 7036:tid 808] AH00354: Child: Starting 64 worker threads.
+[Tue Oct 19 05:02:47.809414 2021] [core:warn] [pid 43736:tid 760] AH00098: pid file C:/Users/nishi/AppData/Roaming/Local/run/L-pFkpTal/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Oct 19 05:02:47.810390 2021] [mpm_winnt:notice] [pid 43736:tid 760] AH00455: Apache/2.4.43 (Win32) configured -- resuming normal operations
+[Tue Oct 19 05:02:47.810390 2021] [mpm_winnt:notice] [pid 43736:tid 760] AH00456: Server built: Apr 21 2020 13:46:54
+[Tue Oct 19 05:02:47.810390 2021] [core:notice] [pid 43736:tid 760] AH00094: Command line: 'C:\\Users\\nishi\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+6\\bin\\win32\\bin\\httpd.exe -d C:/Users/nishi/AppData/Roaming/Local/lightning-services/apache-2.4.43+6/bin/win32 -D FOREGROUND -f C:\\Users\\nishi\\AppData\\Roaming\\Local\\run\\L-pFkpTal\\conf\\apache\\apache2.conf'
+[Tue Oct 19 05:02:47.812342 2021] [mpm_winnt:notice] [pid 43736:tid 760] AH00418: Parent: Created child process 47708
+[Tue Oct 19 05:02:48.250094 2021] [mpm_winnt:notice] [pid 47708:tid 816] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 18 07:10:21.610589 2021] [core:warn] [pid 2240:tid 816] AH00098: pid file C:/Users/nishi/AppData/Roaming/Local/run/L-pFkpTal/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Nov 18 07:10:21.612589 2021] [mpm_winnt:notice] [pid 2240:tid 816] AH00455: Apache/2.4.43 (Win32) configured -- resuming normal operations
+[Thu Nov 18 07:10:21.612589 2021] [mpm_winnt:notice] [pid 2240:tid 816] AH00456: Server built: Apr 21 2020 13:46:54
+[Thu Nov 18 07:10:21.612589 2021] [core:notice] [pid 2240:tid 816] AH00094: Command line: 'C:\\Users\\nishi\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+6\\bin\\win32\\bin\\httpd.exe -d C:/Users/nishi/AppData/Roaming/Local/lightning-services/apache-2.4.43+6/bin/win32 -D FOREGROUND -f C:\\Users\\nishi\\AppData\\Roaming\\Local\\run\\L-pFkpTal\\conf\\apache\\apache2.conf'
+[Thu Nov 18 07:10:21.614588 2021] [mpm_winnt:notice] [pid 2240:tid 816] AH00418: Parent: Created child process 17472
+[Thu Nov 18 07:10:22.131588 2021] [mpm_winnt:notice] [pid 17472:tid 804] AH00354: Child: Starting 64 worker threads.
