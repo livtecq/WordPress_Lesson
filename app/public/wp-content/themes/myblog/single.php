@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<!-- <html lang="ja"> -->
+<!-- WordPressではLanguage設定は下記を記述する。 -->
+<html <?php language_attributes(); ?>>
+
 
 <head>
 
@@ -7,11 +11,54 @@
 
 </head>
 
-<body>
+<!-- 必須ではないが入れておいたほうがいいテンプレートタグ -->
+<body <?php body_class(); ?>>
+
+  <!-- WordPressバージョン5.2から新しく追加されたタグ。 -->
+  <!-- 各ボディタグが開いた直後に書き加えることになるのでテンプレートに加えたほうが便利。 -->
+  <!-- <?php wp_body_open(); ?> -->
+
 
   <!-- Navigation -->
   <!-- ヘッダーやフッター以外のパーツ化 -->
   <?php get_template_part('includes/header'); ?>
+
+
+  <!-- 変数・配列・連想配列の学習 -->
+  <?php
+  // $num = 1; // 変数宣言
+  // echo $num;
+  // echo '<br>';
+  // echo $num + 1;
+  // echo '<br>';
+  // echo $num + 2;
+  // echo '<br>';
+  // echo $num + 3;
+
+  // 配列
+  // $livtecq = []; // もう一つの書き方$livtecq = array();
+  // $livtecq[1] = 'Yamada';
+  // $livtecq[2] = 'Tanaka';
+  // $livtecq[3] = 'Yosidoka';
+  
+  // echo $livtecq[2]; // 添字・インデックス
+
+  // 連想配列
+  // $items = [];
+  // $items[0] = 'りんご';
+  // $items[1] = 'もも';
+  // $items[2] = 'バナナ';
+  // $items[3] = 'グレープ';
+  // $items['apple'] = 'りんご';
+  // $items['peach'] = 'もも';
+  // $items['banana'] = 'バナナ';
+  // $items['grapes'] = 'グレープ';
+
+  // echo $items['grapes']
+
+
+
+  ?>
 
   <!-- ループ処理の際はあまり起こり得ないエラーであっても下記を記述しておく。 -->
   <?php if (have_posts()): ?>
