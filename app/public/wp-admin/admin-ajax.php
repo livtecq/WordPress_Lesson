@@ -24,11 +24,7 @@ require_once dirname( __DIR__ ) . '/wp-load.php';
 /** Allow for cross-domain requests (from the front end). */
 send_origin_headers();
 
-if(in_array($_POST['action'], array('query-attachments', 'send-attachment-to-editor'))){
-	@header('Content-Type: application/json; charset=' . get_option('blog_charset'));
-	}else{
-	@header( 'Content-Type: text/html; charset=' . get_option( 'blog_charset' ) );
-	}
+header( 'Content-Type: text/html; charset=' . get_option( 'blog_charset' ) );
 header( 'X-Robots-Tag: noindex' );
 
 // Require an action parameter.
