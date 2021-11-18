@@ -69,7 +69,7 @@
     <!-- バックグラウンドイメージの中アイキャッチ画像を挿入する。 -->
     <!-- var_dumpで変数の中身を画面に表示して確認する -->
     <!-- もしアイキャッチ画像が設定されていなければifでデフォルト画像を設定する。 -->
-    <?php
+    <!-- <?php
     if (has_post_thumbnail()):
       $id = get_post_thumbnail_id();
       $img = wp_get_attachment_image_src($id, 'large');
@@ -77,7 +77,12 @@
     else:
       $img = array(get_template_directory_uri() . '/img/post-bg.jpg');
     endif;
-    ?>
+    ?> -->
+
+  <!-- function関数を作成して、アイキャッチ画像が未選択の場合デフォルト画像を表示させる。 -->
+  <?php
+    $img = get_eyecatch_with_default();
+  ?>
 
     <header class="masthead" style="background-image: url('<?php echo $img[0]; ?>')">
       <div class="overlay"></div>

@@ -22,7 +22,14 @@
     <?php while (have_posts()): the_post(); ?>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/about-bg.jpg')">
+
+  <!-- バックグラウンドイメージの中アイキャッチ画像を挿入する。 -->
+  <!-- var_dumpで変数の中身を画面に表示して確認する -->
+  <!-- もしアイキャッチ画像が設定されていなければifでデフォルト画像を設定する。 -->
+  <?php
+    $img = get_eyecatch_with_default();
+  ?>
+  <header class="masthead" style="background-image: url('<?php echo $img[0]; ?>')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
