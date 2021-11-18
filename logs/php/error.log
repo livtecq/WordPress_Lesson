@@ -50,3 +50,8 @@
 [18-Nov-2021 00:02:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
 [18-Nov-2021 00:02:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
 [18-Nov-2021 00:02:52 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[18-Nov-2021 16:54:01 UTC] PHP Fatal error:  Assignments can only happen to writable values in C:\Users\nishi\Local Sites\mysite02\app\public\wp-content\themes\myblog\single.php on line 32
+[18-Nov-2021 16:54:01 UTC] PHP Stack trace:
+[18-Nov-2021 16:54:01 UTC] PHP   1. {main}() C:\Users\nishi\Local Sites\mysite02\app\public\index.php:0
+[18-Nov-2021 16:54:01 UTC] PHP   2. require() C:\Users\nishi\Local Sites\mysite02\app\public\index.php:17
+[18-Nov-2021 16:54:01 UTC] PHP   3. require_once() C:\Users\nishi\Local Sites\mysite02\app\public\wp-blog-header.php:19
